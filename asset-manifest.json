@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Todos/static/css/main.200f713a.css",
+    "main.js": "/Todos/static/js/main.6baa832c.js",
+    "static/media/logo.svg": "/Todos/static/media/logo.688fa5bdf46e249304bc37b2896608c1.svg",
+    "static/media/News.png": "/Todos/static/media/News.a9edae073f1154d6a40b.png",
+    "static/media/Mont-Light.woff": "/Todos/static/media/Mont-Light.4f45d6de6f154d5e0b5f.woff",
+    "static/media/Mont-Regular.woff": "/Todos/static/media/Mont-Regular.5f2dd0890a78d28216de.woff",
+    "static/media/Mont-SemiBold.woff": "/Todos/static/media/Mont-SemiBold.5d4afcfe00f8d6a38e5f.woff",
+    "static/media/Mont-Light.woff2": "/Todos/static/media/Mont-Light.a5ad7d42105a6c90eda7.woff2",
+    "static/media/Mont-SemiBold.woff2": "/Todos/static/media/Mont-SemiBold.95ab478c134f9e9da545.woff2",
+    "static/media/Mont-Regular.woff2": "/Todos/static/media/Mont-Regular.efd082cbd3e10b7e9c88.woff2",
+    "static/media/Rubaka.png": "/Todos/static/media/Rubaka.a4662ac1423ddf1e0a6b.png",
+    "static/media/logoTitle.svg": "/Todos/static/media/logoTitle.d0b7ff125ab1ccb240cff7a42247b1d6.svg",
+    "static/media/advertisign.svg": "/Todos/static/media/advertisign.494cca7793d081df052f92a6caa5d916.svg",
+    "static/media/infoEye.svg": "/Todos/static/media/infoEye.d25babc6b715302957b82902ef3c55e8.svg",
+    "index.html": "/Todos/index.html",
+    "static/media/close.svg": "/Todos/static/media/close.d29fe99e15dcb5bff2b9693ad4aa724d.svg",
+    "static/media/strelka.svg": "/Todos/static/media/strelka.2a6a8670a1e6c178092e4932044269a7.svg",
+    "static/media/burger.svg": "/Todos/static/media/burger.fdf57ee3c49efad33f55258f6c03068c.svg",
+    "main.200f713a.css.map": "/Todos/static/css/main.200f713a.css.map",
+    "main.6baa832c.js.map": "/Todos/static/js/main.6baa832c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.200f713a.css",
+    "static/js/main.6baa832c.js"
+  ]
+}
