@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Todos/static/css/main.200f713a.css",
-    "main.js": "/Todos/static/js/main.6baa832c.js",
+    "main.css": "/Todos/static/css/main.76ce90db.css",
+    "main.js": "/Todos/static/js/main.d2edb17a.js",
     "static/media/logo.svg": "/Todos/static/media/logo.688fa5bdf46e249304bc37b2896608c1.svg",
     "static/media/News.png": "/Todos/static/media/News.a9edae073f1154d6a40b.png",
     "static/media/Mont-Light.woff": "/Todos/static/media/Mont-Light.4f45d6de6f154d5e0b5f.woff",
@@ -18,11 +18,11 @@
     "static/media/close.svg": "/Todos/static/media/close.d29fe99e15dcb5bff2b9693ad4aa724d.svg",
     "static/media/strelka.svg": "/Todos/static/media/strelka.2a6a8670a1e6c178092e4932044269a7.svg",
     "static/media/burger.svg": "/Todos/static/media/burger.fdf57ee3c49efad33f55258f6c03068c.svg",
-    "main.200f713a.css.map": "/Todos/static/css/main.200f713a.css.map",
-    "main.6baa832c.js.map": "/Todos/static/js/main.6baa832c.js.map"
+    "main.76ce90db.css.map": "/Todos/static/css/main.76ce90db.css.map",
+    "main.d2edb17a.js.map": "/Todos/static/js/main.d2edb17a.js.map"
   },
   "entrypoints": [
-    "static/css/main.200f713a.css",
-    "static/js/main.6baa832c.js"
+    "static/css/main.76ce90db.css",
+    "static/js/main.d2edb17a.js"
   ]
 }
