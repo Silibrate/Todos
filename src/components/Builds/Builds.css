@@ -98,8 +98,12 @@
 }
 
 .cart__link:hover {
-  background: #aaa9a9;
+  background: #ffffff;
   color: rgb(0, 0, 0);
+}
+
+.cart__link:hover .cart__link__arrow {
+  filter: invert(1);
 }
 
 .cart__link__arrow {
@@ -126,7 +130,7 @@
 
 .builds__button:hover {
   background-color: black;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width:979px) {

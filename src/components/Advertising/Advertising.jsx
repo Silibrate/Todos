@@ -5,7 +5,11 @@ const Advertising = () => {
   return (
     <section className="advertising">
       <div className="advertising__tg">
-        <p className="advertising__tg__text">ПО РЕКЛАМЕ TG: @MARKOFFKAQ / @SILIBRATE <img className="advertising__logo" src={Logo} alt="лого" />ПО РЕКЛАМЕ TG: @MARKOFFKAQ / @SILIBRATE</p>
+        <p className="advertising__tg__text">
+          ПО РЕКЛАМЕ TG: @MARKOFFKAQ / @SILIBRATE <img className="advertising__logo" src={Logo} alt="лого" />
+          ПО РЕКЛАМЕ TG: @MARKOFFKAQ / @SILIBRATE <img className="advertising__logo" src={Logo} alt="лого" />
+          ПО РЕКЛАМЕ TG: @MARKOFFKAQ / @SILIBRATE
+        </p>
       </div>
 
       <div className="advertising__container">
