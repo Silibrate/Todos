@@ -16,6 +16,8 @@
 }
 
 .cart {
+  margin-left: -1px;
+  margin-top: -1px;
   box-sizing: border-box;
   max-width: 330px;
   border: 1px solid #1B1B1B;
@@ -96,8 +98,8 @@
 }
 
 .cart__link:hover {
-  font-size: 20px;
-  color: violet;
+  background: #aaa9a9;
+  color: rgb(0, 0, 0);
 }
 
 .cart__link__arrow {
@@ -112,13 +114,13 @@
   margin-top: 31px;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 15px;
   letter-spacing: -0.02em;
   color: #1B1B1B;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 38%;
+  width: 290px;
   transition: all 0.3s linear;
 }
 
@@ -130,11 +132,6 @@
 @media screen and (max-width:979px) {
   .builds__container {
     max-width: calc(100% - 60px);
-  }
-
-  .builds__button {
-    font-size: 20px;
-    width: 48%;
   }
 }
 
