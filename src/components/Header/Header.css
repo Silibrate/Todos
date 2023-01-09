@@ -36,6 +36,14 @@
   margin-left: 4px;
 }
 
+.footer__bottom{
+  max-width: calc(100% - 120px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
 @media screen and (max-width:979px) {
   .header__container {
     max-width: calc(100% - 60px);
