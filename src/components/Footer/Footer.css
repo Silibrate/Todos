@@ -1,5 +1,5 @@
 .footer {
-  padding-top: 60px;
+  padding-top: 38px;
   padding-bottom: 60px;
   max-width: 1440px;
   margin: auto;
@@ -33,7 +33,7 @@
 
 .footer__input {
   color: white;
-  padding: 0;
+  width: 275px;
   background: none;
   border: 1px solid #FFFFFF;
   padding: 15px 0 15px 7px;
@@ -45,7 +45,7 @@
   border: 1px solid #FFFFFF;
   background-color: #1B1B1B;
   background-image: url('../../images/bigStrelka.svg');
-  width: 40px;
+  width: 47px;
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -53,6 +53,7 @@
 
 .footer__lists {
   padding: 0;
+  margin-right: 60px;
   list-style-type: none;
   display: flex;
 }
@@ -65,11 +66,15 @@
 .footer__list__link {
   text-decoration: none;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #FCFCFC;
   opacity: 0.8;
+}
+
+.footer__list__link:hover {
+  color: #FFFFFF;
 }
 
 .footer__bottom {
@@ -89,7 +94,19 @@
   line-height: 31px;
   border: 1px solid #FFFFFF;
   margin-left: -1px;
-  margin-top: 100px;
+  margin-top: 88px;
+}
+
+@media screen and (max-width:1246px) {
+  .footer__lists {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:1178px) {
+  .footer__list__link {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width:979px) {
@@ -168,5 +185,9 @@
 
   .footer__bottom {
     max-width: calc(100% - 20px);
+  }
+
+  .footer__input {
+    width: 225px;
   }
 }

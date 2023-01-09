@@ -16,13 +16,15 @@
 }
 
 .advertising__tg__text {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 900;
   font-size: 48px;
   line-height: 53px;
   color: #1B1B1B;
   white-space: nowrap;
-  animation: marquee 7.5s infinite linear;
+  animation: marquee 16.5s infinite linear;
 }
 
 .advertising__logo {
@@ -59,7 +61,7 @@
 .advertising__info__text {
   max-width: 274px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 21px;
   color: #1B1B1B;
