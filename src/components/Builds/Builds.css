@@ -125,13 +125,13 @@
   letter-spacing: -0.02em;
   color: #1B1B1B;
   padding-top: 16px;
-  padding-bottom: 18px;
+  padding-bottom: 16px;
   width: 296px;
   transition: all 0.3s linear;
 }
 
 .builds__button:hover {
-  background-color: black;
+  background-color: #1B1B1B;
   color: #ffffff;
 }
 
@@ -150,6 +150,12 @@
   }
 }
 
+@media screen and (max-width:1084px) {
+  .cart__date {
+    line-height: 20px;
+  }
+}
+
 @media screen and (max-width:990px) {
   .cart__title {
     font-size: 2vw;
@@ -163,9 +169,32 @@
   }
 }
 
+@media screen and (max-width:768px) {
+  .cart__text {
+    margin-top: 85px;
+  }
+
+  .cart__img {
+    height: 100%;
+  }
+
+  .cart__date {
+    margin-top: 9px;
+    line-height: 16px;
+  }
+
+  .cart__link {
+    padding-top: 6vw;
+  }
+}
+
 @media screen and (max-width:744px) {
   .cart {
     max-width: 50%;
+  }
+
+  .cart__date {
+    line-height: 26px;
   }
 
   .cart__title {
@@ -189,7 +218,7 @@
 
 @media screen and (max-width:465px) {
   .builds__container {
-    max-width: calc(100% - 20px);
+    max-width: calc(100% - 18px);
   }
 
   .cart {
@@ -203,6 +232,7 @@
 
   .cart__date {
     font-size: 7.5vw;
+    margin-top: 30px;
   }
 
   .cart__img {

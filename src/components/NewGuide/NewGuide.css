@@ -53,7 +53,8 @@
 }
 
 .news__title:hover {
-  color: rgb(22, 22, 248);
+  color: #1B1B1B;
+  opacity: 0.6;
 }
 
 .news__build__info {
@@ -91,6 +92,11 @@
   right: 30px;
 }
 
+.news__img{
+  width: 50.2%;
+  margin-left: -2px;
+}
+
 @media screen and (max-width:1310px) {
   .news__title {
     font-size: 44px;
@@ -107,7 +113,6 @@
   }
 
   .news__img {
-    width: 50%;
     height: 100%;
   }
 }
@@ -170,6 +175,7 @@
     height: 400px;
     object-fit: cover;
     object-position: top;
+    margin: 0;
   }
 
   .news__content {
