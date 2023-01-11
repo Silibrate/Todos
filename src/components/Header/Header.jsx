@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from 'react-router-dom';
 import Logo from '../../images/logo.svg';
 import LogoTitle from '../../images/logoTitle.svg';
 import burgerMenu from '../../images/burger.svg';
@@ -13,7 +14,7 @@ const Header = ({ setMenuOpen, menuOpen }) => {
           <img className="logo__img__text" src={LogoTitle} alt="ЛогоТекст" />
         </div>
         <nav className={`header__nav ${menuOpen ? "header__nav_open" : ""}`}>
-          <a href="#" className="header__link">Главная</a>
+          <Link to="/" className="header__link">Главная</Link>
           <a href="#" className="header__link">Билды</a>
           <a href="#" className="header__link">О проекте</a>
         </nav>

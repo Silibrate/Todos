@@ -1,23 +1,25 @@
 import { useState } from "react";
+import { Routes, Route } from "react-router-dom";
 import Header from "../Header/Header";
 import NewGuide from "../NewGuide/NewGuide";
-import Builds from "../Builds/Builds";
-import Advertising from "../Advertising/Advertising";
-import Footer from "../Footer/Footer";
+import HuntressHeist from "../HuntressHeist/HuntressHeist";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
-      <Header
+          <Header
         setMenuOpen={setMenuOpen}
         menuOpen={menuOpen}
       />
-      <NewGuide />
-      <Builds />
-      <Advertising />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<NewGuide />} />
+        <Route path="/hunteresHeist" element={<HuntressHeist
+          menuOpen={menuOpen}
+          setMenuOpen={setMenuOpen}
+        />} />
+      </Routes>
     </>
   );
 }
