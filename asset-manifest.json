@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Todos/static/css/main.d328ec7a.css",
-    "main.js": "/Todos/static/js/main.d84b3afe.js",
+    "main.css": "/Todos/static/css/main.7e3095f8.css",
+    "main.js": "/Todos/static/js/main.dc63e9e4.js",
     "static/media/logo.svg": "/Todos/static/media/logo.688fa5bdf46e249304bc37b2896608c1.svg",
     "static/media/HunteresDescripteonBild.png": "/Todos/static/media/HunteresDescripteonBild.3123869545cb5e394120.png",
     "static/media/newHanterss.jpg": "/Todos/static/media/newHanterss.b0e89c69af36bab28e43.jpg",
@@ -15,6 +15,8 @@
     "static/media/explosiveArrow.png": "/Todos/static/media/explosiveArrow.215b731458fedcde10a2.png",
     "static/media/HyrrisBite.png": "/Todos/static/media/HyrrisBite.4a87fa6aab78fd44a51b.png",
     "static/media/tabulaRasa.png": "/Todos/static/media/tabulaRasa.cd5d1c3e07071ac249a4.png",
+    "static/media/dyadianDawn.png": "/Todos/static/media/dyadianDawn.2060f138cc272632b412.png",
+    "static/media/wilmasRequital.png": "/Todos/static/media/wilmasRequital.4ef702d61e91369b0c4f.png",
     "static/media/RainOfArrows.png": "/Todos/static/media/RainOfArrows.87080b09570fc575921b.png",
     "static/media/goldrim.png": "/Todos/static/media/goldrim.00c767a01e2203017a26.png",
     "static/media/quillRain.png": "/Todos/static/media/quillRain.c27cbfd973731b838cf1.png",
@@ -29,11 +31,11 @@
     "static/media/bigStrelka.svg": "/Todos/static/media/bigStrelka.f5b167b33c15544c6259.svg",
     "static/media/strelka.svg": "/Todos/static/media/strelka.2a6a8670a1e6c178092e4932044269a7.svg",
     "static/media/burger.svg": "/Todos/static/media/burger.fdf57ee3c49efad33f55258f6c03068c.svg",
-    "main.d328ec7a.css.map": "/Todos/static/css/main.d328ec7a.css.map",
-    "main.d84b3afe.js.map": "/Todos/static/js/main.d84b3afe.js.map"
+    "main.7e3095f8.css.map": "/Todos/static/css/main.7e3095f8.css.map",
+    "main.dc63e9e4.js.map": "/Todos/static/js/main.dc63e9e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.d328ec7a.css",
-    "static/js/main.d84b3afe.js"
+    "static/css/main.7e3095f8.css",
+    "static/js/main.dc63e9e4.js"
   ]
 }
