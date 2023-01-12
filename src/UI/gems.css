@@ -1,0 +1,41 @@
+.gem {
+  position: relative;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1B1B;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.green {
+  color: #1aaa42;
+}
+
+.blue {
+  color: #8888ff;
+}
+
+.gem:hover .gem__img__hover {
+  display: block;
+}
+
+.gem__img {
+  width: 35px;
+  margin-bottom: -8px;
+}
+
+.gem__img__hover {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  bottom: 200%;
+}
+
+@media screen and (max-width:486px) {
+  .gem:hover .gem__img__hover{
+    display: none;
+  }
+}

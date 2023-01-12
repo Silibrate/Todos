@@ -1,0 +1,21 @@
+.unique{
+  position: relative;
+  color: #af6025;
+  cursor: pointer;
+}
+
+.unique__hover{
+  position: absolute;
+  bottom: 100%;
+  display: none;
+}
+
+.unique:hover .unique__hover{
+  display: block;
+}
+
+@media screen and (max-width:486px) {
+  .unique:hover .unique__hover{
+    display: none;
+  }
+}
