@@ -1,15 +1,15 @@
-.lvling {
+.leveling {
   padding-top: 200px;
 }
 
-.lvling__container {
+.leveling__container {
   margin-bottom: 161px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
 
-.lvling__title {
+.leveling__title {
   margin: 0;
   max-width: 473px;
   font-style: normal;
@@ -19,10 +19,10 @@
   color: #1B1B1B;
 }
 
-.lvling__subtitle {
+.leveling__subtitle {
   max-width: 660px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.01em;
@@ -30,19 +30,72 @@
   margin-top: 20px;
 }
 
-.lvling__subtitle:first-child {
+.leveling__subtitle:first-child {
   margin-top: 0;
 }
 
+.leveling__text__conteiner {
+  margin-top: 70px;
+}
+
+.leveling__text__conteiner:first-child {
+  margin-top: 0;
+}
+
+.leveling__text__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  width: 100%;
+  border: 1px solid #1B1B1B;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.leveling__text__title_h4 {
+  margin: 0;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #1B1B1B;
+  opacity: 0.8;
+}
+
+.leveling__text__lists {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leveling__text__list__link {
+  color: #1B1B1B;
+  opacity: 0.8;
+}
+
+.leveling__text__list__link:hover {
+  opacity: 1;
+}
+
+.leveling__subtitle_bold {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #33c174;
+}
+
 @media screen and (max-width:1288px) {
-  .lvling__title {
+  .leveling__title {
     font-size: 54px;
     width: 706px;
   }
 }
 
 @media screen and (max-width:946px) {
-  .lvling__title {
+  .leveling__title {
     font-size: 44px;
     line-height: 50px;
     width: 548px;
@@ -50,25 +103,25 @@
 }
 
 @media screen and (max-width:812px) {
-  .lvling__container {
+  .leveling__container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 
-  .lvling__title {
+  .leveling__title {
     margin-bottom: 40px;
   }
 }
 
 @media screen and (max-width:500px) {
-  .lvling__title {
+  .leveling__title {
     width: 100%;
   }
 }
 
 @media screen and (max-width:412px) {
-  .lvling__title {
+  .leveling__title {
     font-size: 34px;
     line-height: 40px;
   }
