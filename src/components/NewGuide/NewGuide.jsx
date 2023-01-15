@@ -20,7 +20,7 @@ const NewGuide = () => {
               <p className='news__date__text'>{number} <img className='news__eye' src={eyeImg} alt="Глазик" /> </p>
             </div>
             <Link to="/hunteresHeist">
-              <h1 onClick={() => setNumber(number + 1)} className='news__title'>Новый гайд на Охотницу</h1>
+              <h1 onClick={() => { setNumber(number + 1) }} className='news__title'>Новый гайд на Охотницу</h1>
             </Link>
             <div className="news__build__info">
               <div className="news__build__content">

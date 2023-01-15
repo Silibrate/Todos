@@ -40,6 +40,7 @@
 }
 
 .footer__button {
+  cursor: pointer;
   margin-left: -1px;
   padding: 0 13px 0 13px;
   border: 1px solid #FFFFFF;
@@ -75,6 +76,7 @@
 
 .footer__list__link:hover {
   color: #FFFFFF;
+  opacity: 1;
 }
 
 .footer__bottom {

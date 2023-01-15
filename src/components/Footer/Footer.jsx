@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -13,7 +15,7 @@ const Footer = () => {
           <nav>
             <ul className="footer__lists">
               <div className="footer__list__br">
-                <li className="footer__list"><a className="footer__list__link" href="#">Главная </a></li>
+                <li className="footer__list"><Link onClick="scroll(0,0)" className="footer__list__link" to="/">Главная </Link></li>
                 <li className="footer__list"><a className="footer__list__link" href="#">Билды</a></li>
               </div>
               <div className="footer__list__br">

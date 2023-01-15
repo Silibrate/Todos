@@ -18,6 +18,10 @@
   color: #8888ff;
 }
 
+.red {
+  color: #d20000;
+}
+
 .gem:hover .gem__img__hover {
   display: block;
 }
@@ -35,7 +39,7 @@
 }
 
 @media screen and (max-width:486px) {
-  .gem:hover .gem__img__hover{
-    display: none;
+  .gem:hover .gem__img__hover {
+    width: 273px;
   }
 }

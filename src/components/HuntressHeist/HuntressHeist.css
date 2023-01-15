@@ -152,7 +152,7 @@
   width: 83%;
   height: 1px;
   background-color: #1B1B1B;
-  bottom: -168px;
+  bottom: -91px;
   left: 20%;
 }
 
@@ -172,8 +172,16 @@
 }
 
 .build__description__right__list__subtitle {
-  max-width: 325px;
-  text-align: end;
+  width: 252px;
+  text-align: start;
+}
+
+.build__description__right__list__subtitle_plus {
+  margin-top: 10px;
+}
+
+.build__description__right__list__subtitle_plus:first-child {
+  margin-top: 0;
 }
 
 .build__description__right__list:nth-child(4) {
@@ -197,7 +205,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  bottom: -232px;
+  bottom: -155px;
   left: 70px;
 }
 
@@ -217,6 +225,14 @@
   .build__description__subtitle {
     max-width: 532px;
     margin-top: 62px;
+  }
+
+  .build__description__right__lists::after {
+    bottom: -95px;
+  }
+
+  .build__description__right__XXX {
+    bottom: -160px;
   }
 }
 
@@ -254,21 +270,21 @@
   }
 
   .build__description__right__XXX {
-    bottom: -175px;
+    bottom: -105px;
   }
 
   .build__description__right__lists::after {
-    bottom: -111px;
+    bottom: -40px;
   }
 }
 
-@media screen and (max-width:984px) {
+@media screen and (max-width:985px) {
   .build__description__right__lists::after {
-    bottom: -135px;
+    bottom: -62px;
   }
 
   .build__description__right__XXX {
-    bottom: -200px;
+    bottom: -127px;
   }
 }
 
@@ -282,21 +298,21 @@
   }
 
   .build__description__right__lists::after {
-    bottom: -114px;
+    bottom: -40px;
   }
 
   .build__description__right__XXX {
-    bottom: -179px;
+    bottom: -105px;
   }
 }
 
 @media screen and (max-width:925px) {
   .build__description__right__lists::after {
-    bottom: -136px;
+    bottom: -62px;
   }
 
   .build__description__right__XXX {
-    bottom: -201px;
+    bottom: -127px;
   }
 }
 
@@ -324,6 +340,10 @@
     margin-left: 0;
   }
 
+  .build__description__right__list__subtitle {
+    width: 219px;
+  }
+
   .build__description__right {
     width: 70%;
   }
@@ -343,6 +363,10 @@
 @media screen and (max-width:656px) {
   .build__header__title {
     font-size: 54px;
+  }
+
+  .build__description__right {
+    width: 100%;
   }
 }
 

@@ -15,6 +15,23 @@ import goldrim from '../../images/unique/goldrim.png';
 import tabulaRasa from '../../images/unique/tabulaRasa.png';
 import wilmasRequital from '../../images/unique/wilmasRequital.png';
 import dyadianDawn from '../../images/unique/dyadianDawn.png';
+import frenzy from '../../images/gems/frenzy.png';
+import hextouchSupport from '../../images/gems/hextouchSupport.png';
+
+import chainSupport from '../../images/gems/chainSupport.png';
+import lifetapSupport from '../../images/gems/lifetapSupport.png';
+import flamability from '../../images/gems/flamability.png';
+import lesserMultipleProjectilesSupport from '../../images/gems/lesserMultipleProjectilesSupport.png';
+
+
+import lgniteProliferationSupport from '../../images/gems/lgniteProliferationSupport.png';
+import combustionSupport from '../../images/gems/combustionSupport.png';
+import ballistaTotemSupport from '../../images/gems/ballistaTotemSupport.png';
+import elementalDamageWithAttacksSupport from '../../images/gems/elementalDamageWithAttacksSupport.png';
+
+import flameDash from '../../images/gems/flameDash.png';
+import blinkArrow from '../../images/gems/blinkArrow.png';
+import witheringStep from '../../images/gems/witheringStep.png';
 
 const HuntressHeist = () => {
   return (
@@ -54,11 +71,11 @@ const HuntressHeist = () => {
                 <li className="build__description__right__list"><span className="build__description__right__list__title">Урон</span> <span className="build__description__right__list__subtitle">Высокий</span></li>
                 <li className="build__description__right__list"><span className="build__description__right__list__title build__description__right__text_red">Минусы</span> <span className="build__description__right__list__subtitle">Узконаправленный билд под определенные механики</span></li>
                 <li className="build__description__right__list"><span className="build__description__right__list__title build__description__right__text_green">Плюсы</span> <span className="build__description__right__list__subtitle">
-                  Сложно умереть
-                  Фармит огромное количество валюты
-                  Билдообразующий предмет стоит 1c
-                  Сильные и дешевые апгрейды
-                  Быстро бегает
+                  <p className="build__description__right__list__subtitle_plus">Сложно умереть</p>
+                  <p className="build__description__right__list__subtitle_plus">Фармит огромное количество валюты</p>
+                  <p className="build__description__right__list__subtitle_plus">Билдообразующий предмет стоит 1c </p>
+                  <p className="build__description__right__list__subtitle_plus">Сильные и дешевые апгрейды </p>
+                  <p className="build__description__right__list__subtitle_plus">Быстро бегает</p>
                 </span></li>
                 <div className="build__description__right__XXX">
                   <img src={krestImg} alt="Крест" className="build__description__right__XXX__img" />
@@ -103,67 +120,121 @@ const HuntressHeist = () => {
               </div>
 
 
-              <div className="leveling__character">
-                <div className="leveling__container">
-                  <h2 className="leveling__title">
-                    Прокачка персонажа:
-                  </h2>
-                  <div className="leveling__text">
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">
-                        Дерево талантов
-                      </h3>
-                      <ul className="leveling__text__lists leveling__subtitle">
-                        <li className="leveling__text__list"><a className="leveling__text__list__link" href="https://pastebin.com/wfzswm4J">- древо пассивный умений с плавным переходом от 1 уровня до 100</a> </li>
-                        <li className="leveling__text__list"><a className="leveling__text__list__link" href="https://www.youtube.com/watch?v=yUSIFxjh6kI&t=0s">- Объяснения как и куда вставлять ссылку на древо билда.</a></li>
-                      </ul>
-                    </div>
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">Класс восхождения</h3>
-                      <h4 className="leveling__text__title_h4">Налётчик</h4>
-                      <p className="leveling__subtitle"><span className="leveling__subtitle_bold">1 - Быстрое нападение.</span> Увеличивает нашу скорость атаки и передвижения, освобождает место для флакона. </p>
-                      <p className="leveling__subtitle"><span className="leveling__subtitle_bold">2 - Воплощение спешки.</span> Удваивает предыдущее восхождение и увеличивает шанс уклонения.</p>
-                      <p className="leveling__subtitle"><span className="leveling__subtitle_bold">3 - Призрачный удар.</span> Облегчает набор подавления урона от чар и освобождает для флакона.</p>
-                      <p className="leveling__subtitle"><span className="leveling__subtitle_bold">4 - Воплощение пелены.</span> Легкий способ повесить восприимчивость к огню и делает на неуязвимыми к стихийным состояниям.</p>
-                    </div>
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">Пантеон</h3>
-                      <h4 className="leveling__text__title_h4">Старший бог</h4>
-                      <p className="leveling__subtitle">Душа Лунарис</p>
-                      <h4 className="leveling__text__title_h4">Младший бог</h4>
-                      <p className="leveling__subtitle">Душа Граткул</p>
-                    </div>
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">Самоцветы</h3>
-                      <p className="leveling__subtitle">Наносящие урон состояния. наносят урон на % быстрее
-                        +% к множителю постепенного урона от огня
-                        -урон тотемов, увеличение урона,
-                        -% здоровье
-                        -+% сопротивления всем стихиям</p>
-                    </div>
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">Квест Разбойничьи дрязги</h3>
-                      <p className="leveling__subtitle">Убейте всех бандитов.</p>
-                    </div>
+              <div className="leveling__container">
+                <h2 className="leveling__title">
+                  Прокачка персонажа:
+                </h2>
+                <div className="leveling__text">
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">
+                      Дерево талантов
+                    </h3>
+                    <ul className="leveling__text__lists leveling__subtitle">
+                      <li className="leveling__text__list"><a className="leveling__text__list__link" href="https://pastebin.com/wfzswm4J">- древо пассивный умений с плавным переходом от 1 уровня до 100</a> </li>
+                      <li className="leveling__text__list"><a className="leveling__text__list__link" href="https://www.youtube.com/watch?v=yUSIFxjh6kI&t=0s">- Объяснения как и куда вставлять ссылку на древо билда.</a></li>
+                    </ul>
+                  </div>
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Класс восхождения</h3>
+                    <h4 className="leveling__text__title_h4">Налётчик</h4>
+                    <p className="leveling__subtitle"><span className="leveling__subtitle_bold">1 - Быстрое нападение.</span> Увеличивает нашу скорость атаки и передвижения, освобождает место для флакона. </p>
+                    <p className="leveling__subtitle"><span className="leveling__subtitle_bold">2 - Воплощение спешки.</span> Удваивает предыдущее восхождение и увеличивает шанс уклонения.</p>
+                    <p className="leveling__subtitle"><span className="leveling__subtitle_bold">3 - Призрачный удар.</span> Облегчает набор подавления урона от чар и освобождает для флакона.</p>
+                    <p className="leveling__subtitle"><span className="leveling__subtitle_bold">4 - Воплощение пелены.</span> Легкий способ повесить восприимчивость к огню и делает на неуязвимыми к стихийным состояниям.</p>
+                  </div>
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Пантеон</h3>
+                    <h4 className="leveling__text__title_h4">Старший бог</h4>
+                    <p className="leveling__subtitle">Душа Лунарис</p>
+                    <h4 className="leveling__text__title_h4">Младший бог</h4>
+                    <p className="leveling__subtitle">Душа Граткул</p>
+                  </div>
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Самоцветы</h3>
+                    <p className="leveling__subtitle">Наносящие урон состояния. наносят урон на % быстрее
+                      +% к множителю постепенного урона от огня
+                      -урон тотемов, увеличение урона,
+                      -% здоровье
+                      -+% сопротивления всем стихиям</p>
+                  </div>
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Квест Разбойничьи дрязги</h3>
+                    <p className="leveling__subtitle">Убейте всех бандитов.</p>
+                  </div>
+                </div>
+
+              </div>
+
+
+
+              <div className="leveling__container">
+                <h2 className="leveling__title">Финальный Гир:</h2>
+                <div className="leveling__text">
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Шлем</h3>
+                    <p className="leveling__subtitle"><img className="unique__hover" src={wilmasRequital} alt="Возмездие Вильмы" /> <span className="unique"><img className="unique__hover" src={wilmasRequital} alt="Возмездие Вильмы" />Возмездие Вильмы - Диадема Солярис/Wilmas - Requital</span>. Позволяет сконвертировать скорость сотворения чар в скорость атаки полученную с усиленного боевого ража. В сумме мы получаем 70% скорости атаки, +1 к числу тотемов, необходимую точность, урон от стихийных атак
+                      стоимость ~1с.</p>
                   </div>
 
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Пояс</h3>
+                    <p className="leveling__subtitle"><img className="unique__hover" src={wilmasRequital} alt="Возмездие Вильмы" /> <span className="unique"><img className="unique__hover" src={dyadianDawn} alt="Возмездие Вильмы" />Дядианская заря - Широкий ремень/Dyadian Dawn</span>. Самый сильный предмет для увеличения урона поджога (как можно быстрее следует намазать элементальными каталистами).Помимо урона дает необходимые резисты и здоровье.стоимость ~4с.</p>
+                  </div>
                 </div>
               </div>
 
-              <div className="leveling__character">
-                <div className="leveling__container">
-                  <h2 className="leveling__title">Нагрудная броня:</h2>
-                  <div className="leveling__text">
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">Шлем</h3>
-                      <p className="leveling__subtitle"><img className="unique__hover" src={wilmasRequital} alt="Возмездие Вильмы" /> <span className="unique"><img className="unique__hover" src={wilmasRequital} alt="Возмездие Вильмы" />Возмездие Вильмы - Диадема Солярис/Wilmas - Requital</span>. Позволяет сконвертировать скорость сотворения чар в скорость атаки полученную с усиленного боевого ража. В сумме мы получаем 70% скорости атаки, +1 к числу тотемов, необходимую точность, урон от стихийных атак
-                        стоимость ~1с.</p>
-                    </div>
+              <div className="leveling__container">
+                <h2 className="leveling__title">Камни умений:</h2>
+                <div className="leveling__text">
+                  <div className="leveling__text__conteiner leveling__text_gems">
+                    <h3 className="leveling__text__title">Нагрудная броня</h3>
+                    <p className="leveling__subtitle">Данная связка дает нам заряды ярости, которые дают нам 24% скорости атаки и 12% чистого урона + вешает горючесть на врагов. Горючесть позволяет добрать шанс поджога, которого нам не хватает и увеличивает урон от огня.</p>
+                    <ul className="leveling__gems__lists" >
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Frenzy.webp" alt="Бешенство" /> Бешенство/Frenzy <img className="gem__img__hover" src={frenzy} alt="Бешенство" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0N1cnNlT25IaXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/da0ae156c5/CurseOnHit.png" alt="Касание порчи" /> Касание порчи/Hextouch Support <img className="gem__img__hover" src={hextouchSupport} alt="Касание порчи" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/LesserMultipleProjectiles.webp" alt="Дополнительные снаряды" /> Дополнительные снаряды/Lesser Multiple Projectiles Support <img className="gem__img__hover" src={lesserMultipleProjectilesSupport} alt="Дополнительные снаряды" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Flammability.webp" alt="Горючесть" /> Горючесть/Flammability <img className="gem__img__hover" src={flamability} alt="Горючесть" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0xpZmVUYXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9cef38ae47/LifeTap.png" alt="Жизнеотвод" /> Жизнеотвод/Lifetap Support <img className="gem__img__hover" src={lifetapSupport} alt="Жизнеотвод" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L2NoYWluIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/812e47f631/chain.png" alt="Цепь" /> Цепь/Chain Support <img className="gem__img__hover" src={chainSupport} alt="Цепь" /></span></li>
+                    </ul>
+                  </div>
 
-                    <div className="leveling__text__conteiner">
-                      <h3 className="leveling__text__title">Пояс</h3>
-                      <p className="leveling__subtitle"><img className="unique__hover" src={wilmasRequital} alt="Возмездие Вильмы" /> <span className="unique"><img className="unique__hover" src={dyadianDawn} alt="Возмездие Вильмы" />Дядианская заря - Широкий ремень/Dyadian Dawn</span>. Самый сильный предмет для увеличения урона поджога (как можно быстрее следует намазать элементальными каталистами).Помимо урона дает необходимые резисты и здоровье.стоимость ~4с.</p>
-                    </div>
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Лук</h3>
+                    <p className="leveling__subtitle">ignite proliferation меняем на empower 3+ lvl и получаем мод на перчатках на распространение на других врагов в радиусе c помощью (Мелкий древний уголёк).</p>
+                    <ul className="leveling__gems__lists" >
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img__hover" src={explosiveArrow} alt="Взрывная стрела" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9FeHBsb3NpdmVBcnJvdyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/a9cd35adfb/ExplosiveArrow.png" alt="Взрывная стрела" /> Взрывная стрела/Explosive arrow</span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1dlYXBvbkVsZW1lbnRhbERhbWFnZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/2cfbdc80b2/WeaponElementalDamage.png" alt="Урон от стихий атаками" /> Урон от стихий атаками/Elemental Damage with Attacks Support <img className="gem__img__hover" src={elementalDamageWithAttacksSupport} alt="Урон от стихий атаками" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1JhbmdlZEF0dGFja1RvdGVtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b7ee0c564e/RangedAttackTotem.png" alt="Тотем-баллиста" /> Тотем-баллиста/Ballista Totem Support <img className="gem__img__hover" src={ballistaTotemSupport} alt="Тотем-баллиста" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0NoYW5jZXRvSWduaXRlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b24521e59a/ChancetoIgnite.png" alt="Воспламенение" /> Воспламенение/Combustion Support <img className="gem__img__hover" src={combustionSupport} alt="Воспламенение" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0lnbml0ZVByb2xpZmVyYXRpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e6a337b58f/IgniteProliferation.png" alt="Распространение поджога" /> Распространение поджога/Lifetap Support <img className="gem__img__hover" src={lgniteProliferationSupport} alt="Распространение поджога" /></span></li>
+                    </ul>
+                  </div>
+
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Любой 4 линк</h3>
+                    <p className="leveling__subtitle">Данная связка дает нам большую мобильность так как <span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9CbGlua0Fycm93IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/2836299d6e/BlinkArrow.png" alt="Стрела-телепорт" /> Стрела-телепорт/Blink Arrow <img className="gem__img__hover" src={blinkArrow} alt="Стрела-телепорт" /></span> и <span className="gem blue"><img className="gem__img__hover" src={flameDash} alt="Огненный рывок" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GbGFtZURhc2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6816a20975/FlameDash.png" alt="Огненный рывок" />Огненный рывок/Flame dash</span> имею разные откаты, что позволяет постоянно спамить их по очереди.</p>
+                    <ul className="leveling__gems__lists" >
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img__hover" src={flameDash} alt="Огненный рывок" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GbGFtZURhc2giLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6816a20975/FlameDash.png" alt="Огненный рывок" />Огненный рывок/Flame dash</span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9CbGlua0Fycm93IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/2836299d6e/BlinkArrow.png" alt="Стрела-телепорт" /> Стрела-телепорт/Blink Arrow <img className="gem__img__hover" src={blinkArrow} alt="Стрела-телепорт" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9XaXRoZXJpbmdTdGVwR2VtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/6f949bee1e/WitheringStepGem.png" alt="Губительный шаг" /> Губительный шаг/Withering Step <img className="gem__img__hover" src={witheringStep} alt="Губительный шаг" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0xpZmVUYXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9cef38ae47/LifeTap.png" alt="Жизнеотвод" /> Жизнеотвод/Lifetap Support <img className="gem__img__hover" src={lifetapSupport} alt="Жизнеотвод" /></span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="leveling__container">
+                <h2 className="leveling__title">Крафт:</h2>
+                <div className="leveling__text">
+                  <div className="leveling__text__conteiner">
+                    <p className="leveling__subtitle">Найти дешевый 6-линк лук нам позволит карточка Имперское наследие. Данная карточка имеет 4 удобные карты для выпадения и достаточно дешевая.
+                      Самый легкий способ ее достать это запускать мисси Кирака с надписью (вы находите полную коллекцию карт), всегда будет то что вам надо.</p>
+                    <p className="leveling__subtitle">Для получения лука с +3 к размещённым камням нужна 1 <span className="currency"><img className="currency__img" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/CurrencyModValues.webp" alt="божественная сфера" />божественная сфера</span>, 1 <span className="currency"><img className="currency__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b102771c23/CurrencyAddModToRare.png" alt="сфера возвышения" />сфера возвышения</span> и несколько сущностей <span className="currency currency_essence"><img className="currency__img" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/Essence/Dread6.webp" alt="Визжащая сущность жути" />Визжащая сущность жути</span>.</p>
+                    <p className="leveling__subtitle">1. Для будущего крафта с огорода желательно поднять качество до 28+ с помощью Безупречного ископаемого.</p>
+                    <p className="leveling__subtitle">2. Кидать Сущность до тех пор пока не выпадет скорость атаки и хотя бы 1 свободный суффикс и префикс.</p>
+                    <p className="leveling__subtitle">3. После крафтим на станке (не может выпасть атак мод) за божественную сферу, кидаем сферу возвышения и гарантированно получаем +1.</p>
+                    <p className="leveling__subtitle">4. Убираем (не может выпасть атак мод) на %множитель огненного урона.</p>
                   </div>
                 </div>
               </div>

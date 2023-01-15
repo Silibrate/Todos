@@ -1,0 +1,14 @@
+.currency {
+  color: #e3ba2e;
+}
+
+.currency_essence{
+  color: #632ee3;
+}
+
+.currency__img{
+  width: 30px;
+  height: 30px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
