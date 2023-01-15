@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/Todos/static/css/main.7e3095f8.css",
-    "main.js": "/Todos/static/js/main.dc63e9e4.js",
+    "main.css": "/Todos/static/css/main.e4549b22.css",
+    "main.js": "/Todos/static/js/main.892e0c92.js",
     "static/media/logo.svg": "/Todos/static/media/logo.688fa5bdf46e249304bc37b2896608c1.svg",
     "static/media/HunteresDescripteonBild.png": "/Todos/static/media/HunteresDescripteonBild.3123869545cb5e394120.png",
     "static/media/newHanterss.jpg": "/Todos/static/media/newHanterss.b0e89c69af36bab28e43.jpg",
+    "static/media/witheringStep.png": "/Todos/static/media/witheringStep.d872e1d1aed95fb8d987.png",
     "static/media/Mont-Light.woff": "/Todos/static/media/Mont-Light.4f45d6de6f154d5e0b5f.woff",
+    "static/media/blinkArrow.png": "/Todos/static/media/blinkArrow.a2bac1bc67b094470c9c.png",
     "static/media/Mont-Regular.woff": "/Todos/static/media/Mont-Regular.5f2dd0890a78d28216de.woff",
+    "static/media/flameDash.png": "/Todos/static/media/flameDash.b3545d7794cba7cf9f40.png",
     "static/media/Mont-SemiBold.woff": "/Todos/static/media/Mont-SemiBold.5d4afcfe00f8d6a38e5f.woff",
     "static/media/Mont-Light.woff2": "/Todos/static/media/Mont-Light.a5ad7d42105a6c90eda7.woff2",
     "static/media/Mont-SemiBold.woff2": "/Todos/static/media/Mont-SemiBold.95ab478c134f9e9da545.woff2",
@@ -17,11 +20,21 @@
     "static/media/tabulaRasa.png": "/Todos/static/media/tabulaRasa.cd5d1c3e07071ac249a4.png",
     "static/media/dyadianDawn.png": "/Todos/static/media/dyadianDawn.2060f138cc272632b412.png",
     "static/media/wilmasRequital.png": "/Todos/static/media/wilmasRequital.4ef702d61e91369b0c4f.png",
+    "static/media/hextouchSupport.png": "/Todos/static/media/hextouchSupport.edd811a539626aba9bbb.png",
+    "static/media/ballistaTotemSupport.png": "/Todos/static/media/ballistaTotemSupport.e4607b25cfcc253ddc84.png",
+    "static/media/lifetapSupport.png": "/Todos/static/media/lifetapSupport.530f8d08bf3f03bdda91.png",
+    "static/media/flamability.png": "/Todos/static/media/flamability.23bbc7acca11f9f14d7b.png",
     "static/media/RainOfArrows.png": "/Todos/static/media/RainOfArrows.87080b09570fc575921b.png",
     "static/media/goldrim.png": "/Todos/static/media/goldrim.00c767a01e2203017a26.png",
     "static/media/quillRain.png": "/Todos/static/media/quillRain.c27cbfd973731b838cf1.png",
+    "static/media/frenzy.png": "/Todos/static/media/frenzy.24e186120ebd6b189f7f.png",
+    "static/media/combustionSupport.png": "/Todos/static/media/combustionSupport.ee0ea5d81a175856f078.png",
     "static/media/ColdDamage.png": "/Todos/static/media/ColdDamage.0756dd021a391096b337.png",
     "static/media/LightningDamageSupport.png": "/Todos/static/media/LightningDamageSupport.256215e158ff384db98a.png",
+    "static/media/chainSupport.png": "/Todos/static/media/chainSupport.920a61d28b6fe2fea925.png",
+    "static/media/lgniteProliferationSupport.png": "/Todos/static/media/lgniteProliferationSupport.5e57546e0732c4059fe5.png",
+    "static/media/lesserMultipleProjectilesSupport.png": "/Todos/static/media/lesserMultipleProjectilesSupport.1d434dc282501fc60918.png",
+    "static/media/elementalDamageWithAttacksSupport.png": "/Todos/static/media/elementalDamageWithAttacksSupport.2f8569c01250c33ed92c.png",
     "static/media/logoTitle.svg": "/Todos/static/media/logoTitle.d0b7ff125ab1ccb240cff7a42247b1d6.svg",
     "index.html": "/Todos/index.html",
     "static/media/advertisign.svg": "/Todos/static/media/advertisign.494cca7793d081df052f92a6caa5d916.svg",
@@ -31,11 +44,11 @@
     "static/media/bigStrelka.svg": "/Todos/static/media/bigStrelka.f5b167b33c15544c6259.svg",
     "static/media/strelka.svg": "/Todos/static/media/strelka.2a6a8670a1e6c178092e4932044269a7.svg",
     "static/media/burger.svg": "/Todos/static/media/burger.fdf57ee3c49efad33f55258f6c03068c.svg",
-    "main.7e3095f8.css.map": "/Todos/static/css/main.7e3095f8.css.map",
-    "main.dc63e9e4.js.map": "/Todos/static/js/main.dc63e9e4.js.map"
+    "main.e4549b22.css.map": "/Todos/static/css/main.e4549b22.css.map",
+    "main.892e0c92.js.map": "/Todos/static/js/main.892e0c92.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e3095f8.css",
-    "static/js/main.dc63e9e4.js"
+    "static/css/main.e4549b22.css",
+    "static/js/main.892e0c92.js"
   ]
 }
