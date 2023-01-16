@@ -17,21 +17,26 @@ import wilmasRequital from '../../images/unique/wilmasRequital.png';
 import dyadianDawn from '../../images/unique/dyadianDawn.png';
 import frenzy from '../../images/gems/frenzy.png';
 import hextouchSupport from '../../images/gems/hextouchSupport.png';
-
 import chainSupport from '../../images/gems/chainSupport.png';
 import lifetapSupport from '../../images/gems/lifetapSupport.png';
 import flamability from '../../images/gems/flamability.png';
 import lesserMultipleProjectilesSupport from '../../images/gems/lesserMultipleProjectilesSupport.png';
-
-
 import lgniteProliferationSupport from '../../images/gems/lgniteProliferationSupport.png';
 import combustionSupport from '../../images/gems/combustionSupport.png';
 import ballistaTotemSupport from '../../images/gems/ballistaTotemSupport.png';
 import elementalDamageWithAttacksSupport from '../../images/gems/elementalDamageWithAttacksSupport.png';
-
 import flameDash from '../../images/gems/flameDash.png';
 import blinkArrow from '../../images/gems/blinkArrow.png';
 import witheringStep from '../../images/gems/witheringStep.png';
+import castWhenDamageTakenSupport from '../../images/gems/castWhenDamageTakenSupport.png';
+import moltenShell from '../../images/gems/moltenShell.png';
+
+import defianceBanner from '../../images/gems/defianceBanner.png';
+import flameSurge from '../../images/gems/flameSurge.png';
+import grace from '../../images/gems/grace.png';
+import determination from '../../images/gems/determination.png';
+import arroganceSupport from '../../images/gems/arroganceSupport.png';
+import vitality from '../../images/gems/vitality.png';
 
 const HuntressHeist = () => {
   return (
@@ -190,10 +195,10 @@ const HuntressHeist = () => {
                     <h3 className="leveling__text__title">Нагрудная броня</h3>
                     <p className="leveling__subtitle">Данная связка дает нам заряды ярости, которые дают нам 24% скорости атаки и 12% чистого урона + вешает горючесть на врагов. Горючесть позволяет добрать шанс поджога, которого нам не хватает и увеличивает урон от огня.</p>
                     <ul className="leveling__gems__lists" >
-                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Frenzy.webp" alt="Бешенство" /> Бешенство/Frenzy <img className="gem__img__hover" src={frenzy} alt="Бешенство" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GcmVuenkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/cd16439994/Frenzy.png" alt="Бешенство" /> Бешенство/Frenzy <img className="gem__img__hover" src={frenzy} alt="Бешенство" /></span></li>
                       <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0N1cnNlT25IaXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/da0ae156c5/CurseOnHit.png" alt="Касание порчи" /> Касание порчи/Hextouch Support <img className="gem__img__hover" src={hextouchSupport} alt="Касание порчи" /></span></li>
-                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Support/LesserMultipleProjectiles.webp" alt="Дополнительные снаряды" /> Дополнительные снаряды/Lesser Multiple Projectiles Support <img className="gem__img__hover" src={lesserMultipleProjectilesSupport} alt="Дополнительные снаряды" /></span></li>
-                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://cdn.poedb.tw/image/Art/2DItems/Gems/Flammability.webp" alt="Горючесть" /> Горючесть/Flammability <img className="gem__img__hover" src={flamability} alt="Горючесть" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0xlc3Nlck11bHRpcGxlUHJvamVjdGlsZXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/db32a787d3/LesserMultipleProjectiles.png" alt="Дополнительные снаряды" /> Дополнительные снаряды/Lesser Multiple Projectiles Support <img className="gem__img__hover" src={lesserMultipleProjectilesSupport} alt="Дополнительные снаряды" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GbGFtbWFiaWxpdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/ba43e87752/Flammability.png" alt="Горючесть" /> Горючесть/Flammability <img className="gem__img__hover" src={flamability} alt="Горючесть" /></span></li>
                       <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0xpZmVUYXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9cef38ae47/LifeTap.png" alt="Жизнеотвод" /> Жизнеотвод/Lifetap Support <img className="gem__img__hover" src={lifetapSupport} alt="Жизнеотвод" /></span></li>
                       <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L2NoYWluIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/812e47f631/chain.png" alt="Цепь" /> Цепь/Chain Support <img className="gem__img__hover" src={chainSupport} alt="Цепь" /></span></li>
                     </ul>
@@ -208,6 +213,7 @@ const HuntressHeist = () => {
                       <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L1JhbmdlZEF0dGFja1RvdGVtIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b7ee0c564e/RangedAttackTotem.png" alt="Тотем-баллиста" /> Тотем-баллиста/Ballista Totem Support <img className="gem__img__hover" src={ballistaTotemSupport} alt="Тотем-баллиста" /></span></li>
                       <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0NoYW5jZXRvSWduaXRlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b24521e59a/ChancetoIgnite.png" alt="Воспламенение" /> Воспламенение/Combustion Support <img className="gem__img__hover" src={combustionSupport} alt="Воспламенение" /></span></li>
                       <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0lnbml0ZVByb2xpZmVyYXRpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e6a337b58f/IgniteProliferation.png" alt="Распространение поджога" /> Распространение поджога/Lifetap Support <img className="gem__img__hover" src={lgniteProliferationSupport} alt="Распространение поджога" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0xpZmVUYXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9cef38ae47/LifeTap.png" alt="Жизнеотвод" /> Жизнеотвод/Lifetap Support <img className="gem__img__hover" src={lifetapSupport} alt="Жизнеотвод" /></span></li>
                     </ul>
                   </div>
 
@@ -221,6 +227,36 @@ const HuntressHeist = () => {
                       <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0xpZmVUYXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/9cef38ae47/LifeTap.png" alt="Жизнеотвод" /> Жизнеотвод/Lifetap Support <img className="gem__img__hover" src={lifetapSupport} alt="Жизнеотвод" /></span></li>
                     </ul>
                   </div>
+
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Любой 2 линк</h3>
+                    <p className="leveling__subtitle">уменьшения всего входящего по нам урона под действием <span className="gem red"><img className="gem__img__hover" src={moltenShell} alt="Расплавленный панцирь" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Nb2x0ZW5TaGVsbCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/9d2618a44a/MoltenShell.png" alt="Расплавленный панцирь" />Расплавленный панцирь/Molten Shell</span> за счет брони.</p>
+                    <ul className="leveling__gems__lists" >
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img__hover" src={moltenShell} alt="Расплавленный панцирь" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Nb2x0ZW5TaGVsbCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/9d2618a44a/MoltenShell.png" alt="Расплавленный панцирь" />Расплавленный панцирь/Molten Shell</span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0Nhc3RPbkRtZ1Rha2VuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/2f075f5964/CastOnDmgTaken.png" alt="Сотворение чар при получении урона" /> Сотворение чар при получении урона/Cast when Damage Taken Support <img className="gem__img__hover" src={castWhenDamageTakenSupport} alt="Сотворение чар при получении урона" /></span></li>
+                    </ul>
+                  </div>
+
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Любой 2 линк</h3>
+                    <p className="leveling__subtitle">Резервирует здоровье но взамен дает большое количество регенерации.</p>
+                    <ul className="leveling__gems__lists" >
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img__hover" src={vitality} alt="Живучесть" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9WaXRhbGl0eSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/125dbe04db/Vitality.png" alt="Живучесть" />Живучесть/Vitality</span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9TdXBwb3J0L0Jsb29kTWFnaWMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f90e23f319/BloodMagic.png" alt="Заносчивость" /> Заносчивость/Arrogance Support <img className="gem__img__hover" src={arroganceSupport} alt="Заносчивость" /></span></li>
+                    </ul>
+                  </div>
+
+                  <div className="leveling__text__conteiner">
+                    <h3 className="leveling__text__title">Гемы без линка</h3>
+                    <p className="leveling__subtitle">И <span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GbGFtZXdoaXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/005ce2aecc/Flamewhip.png" alt="Выброс пламени" /> Выброс пламени/Flame Surge <img className="gem__img__hover" src={flameSurge} alt="Выброс пламени" /></span> - оставляем 1 лвл чтобы не тратил ману.
+                      Он дает 25% more damage когда враг стоит на подожжённой земле. Используем для сингл таргета</p>
+                    <ul className="leveling__gems__lists" >
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img__hover" src={determination} alt="Решимость" /><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9EZXRlcm1pbmF0aW9uIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/64c8ca9798/Determination.png" alt="Решимость" />Решимость/Determination</span></li>
+                      <li className="leveling__gems__list"><span className="gem green"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9HcmFjZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/e98082048a/Grace.png" alt="Грация" /> Грация/Grace <img className="gem__img__hover" src={grace} alt="Грация" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem red"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9Bcm1vdXJhbmRFdmFzaW9uQmFubmVyIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b1f3dcfaa6/ArmourandEvasionBanner.png" alt="Знамя непокорности" /> Знамя непокорности/Defiance Banner <img className="gem__img__hover" src={defianceBanner} alt="Знамя непокорности" /></span></li>
+                      <li className="leveling__gems__list"><span className="gem blue"><img className="gem__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvR2Vtcy9GbGFtZXdoaXAiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/005ce2aecc/Flamewhip.png" alt="Выброс пламени" /> Выброс пламени/Flame Surge <img className="gem__img__hover" src={flameSurge} alt="Выброс пламени" /></span></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
@@ -230,7 +266,7 @@ const HuntressHeist = () => {
                   <div className="leveling__text__conteiner">
                     <p className="leveling__subtitle">Найти дешевый 6-линк лук нам позволит карточка Имперское наследие. Данная карточка имеет 4 удобные карты для выпадения и достаточно дешевая.
                       Самый легкий способ ее достать это запускать мисси Кирака с надписью (вы находите полную коллекцию карт), всегда будет то что вам надо.</p>
-                    <p className="leveling__subtitle">Для получения лука с +3 к размещённым камням нужна 1 <span className="currency"><img className="currency__img" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/CurrencyModValues.webp" alt="божественная сфера" />божественная сфера</span>, 1 <span className="currency"><img className="currency__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b102771c23/CurrencyAddModToRare.png" alt="сфера возвышения" />сфера возвышения</span> и несколько сущностей <span className="currency currency_essence"><img className="currency__img" src="https://cdn.poedb.tw/image/Art/2DItems/Currency/Essence/Dread6.webp" alt="Визжащая сущность жути" />Визжащая сущность жути</span>.</p>
+                    <p className="leveling__subtitle">Для получения лука с +3 к размещённым камням нужна 1 <span className="currency"><img className="currency__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/e1a54ff97d/CurrencyModValues.png" alt="божественная сфера" />божественная сфера</span>, 1 <span className="currency"><img className="currency__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b102771c23/CurrencyAddModToRare.png" alt="сфера возвышения" />сфера возвышения</span> и несколько сущностей <span className="currency currency_essence"><img className="currency__img" src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EcmVhZDYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8910bae3d0/Dread6.png" alt="Визжащая сущность жути" />Визжащая сущность жути</span>.</p>
                     <p className="leveling__subtitle">1. Для будущего крафта с огорода желательно поднять качество до 28+ с помощью Безупречного ископаемого.</p>
                     <p className="leveling__subtitle">2. Кидать Сущность до тех пор пока не выпадет скорость атаки и хотя бы 1 свободный суффикс и префикс.</p>
                     <p className="leveling__subtitle">3. После крафтим на станке (не может выпасть атак мод) за божественную сферу, кидаем сферу возвышения и гарантированно получаем +1.</p>
