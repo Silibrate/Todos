@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Todos/static/css/main.e4549b22.css",
-    "main.js": "/Todos/static/js/main.892e0c92.js",
+    "main.js": "/Todos/static/js/main.bf699b0c.js",
     "static/media/logo.svg": "/Todos/static/media/logo.688fa5bdf46e249304bc37b2896608c1.svg",
     "static/media/HunteresDescripteonBild.png": "/Todos/static/media/HunteresDescripteonBild.3123869545cb5e394120.png",
     "static/media/newHanterss.jpg": "/Todos/static/media/newHanterss.b0e89c69af36bab28e43.jpg",
@@ -14,19 +14,27 @@
     "static/media/Mont-Light.woff2": "/Todos/static/media/Mont-Light.a5ad7d42105a6c90eda7.woff2",
     "static/media/Mont-SemiBold.woff2": "/Todos/static/media/Mont-SemiBold.95ab478c134f9e9da545.woff2",
     "static/media/Mont-Regular.woff2": "/Todos/static/media/Mont-Regular.efd082cbd3e10b7e9c88.woff2",
+    "static/media/defianceBanner.png": "/Todos/static/media/defianceBanner.8ea82de0a5991d3d349d.png",
     "static/media/Rubaka.png": "/Todos/static/media/Rubaka.a4662ac1423ddf1e0a6b.png",
+    "static/media/moltenShell.png": "/Todos/static/media/moltenShell.cc60420d130f27c9ccaf.png",
     "static/media/explosiveArrow.png": "/Todos/static/media/explosiveArrow.215b731458fedcde10a2.png",
+    "static/media/castWhenDamageTakenSupport.png": "/Todos/static/media/castWhenDamageTakenSupport.a44a0cd5a6c1c466016e.png",
+    "static/media/flameSurge.png": "/Todos/static/media/flameSurge.98da59cea3d89fcd5cbb.png",
     "static/media/HyrrisBite.png": "/Todos/static/media/HyrrisBite.4a87fa6aab78fd44a51b.png",
     "static/media/tabulaRasa.png": "/Todos/static/media/tabulaRasa.cd5d1c3e07071ac249a4.png",
     "static/media/dyadianDawn.png": "/Todos/static/media/dyadianDawn.2060f138cc272632b412.png",
     "static/media/wilmasRequital.png": "/Todos/static/media/wilmasRequital.4ef702d61e91369b0c4f.png",
     "static/media/hextouchSupport.png": "/Todos/static/media/hextouchSupport.edd811a539626aba9bbb.png",
     "static/media/ballistaTotemSupport.png": "/Todos/static/media/ballistaTotemSupport.e4607b25cfcc253ddc84.png",
+    "static/media/grace.png": "/Todos/static/media/grace.31dc15a44059514b9962.png",
     "static/media/lifetapSupport.png": "/Todos/static/media/lifetapSupport.530f8d08bf3f03bdda91.png",
+    "static/media/determination.png": "/Todos/static/media/determination.0175d7d1a0efc2af782f.png",
     "static/media/flamability.png": "/Todos/static/media/flamability.23bbc7acca11f9f14d7b.png",
     "static/media/RainOfArrows.png": "/Todos/static/media/RainOfArrows.87080b09570fc575921b.png",
+    "static/media/vitality.png": "/Todos/static/media/vitality.646a857fac7e1d6e3c99.png",
     "static/media/goldrim.png": "/Todos/static/media/goldrim.00c767a01e2203017a26.png",
     "static/media/quillRain.png": "/Todos/static/media/quillRain.c27cbfd973731b838cf1.png",
+    "static/media/arroganceSupport.png": "/Todos/static/media/arroganceSupport.9fa10a4f728ee368b50f.png",
     "static/media/frenzy.png": "/Todos/static/media/frenzy.24e186120ebd6b189f7f.png",
     "static/media/combustionSupport.png": "/Todos/static/media/combustionSupport.ee0ea5d81a175856f078.png",
     "static/media/ColdDamage.png": "/Todos/static/media/ColdDamage.0756dd021a391096b337.png",
@@ -45,10 +53,10 @@
     "static/media/strelka.svg": "/Todos/static/media/strelka.2a6a8670a1e6c178092e4932044269a7.svg",
     "static/media/burger.svg": "/Todos/static/media/burger.fdf57ee3c49efad33f55258f6c03068c.svg",
     "main.e4549b22.css.map": "/Todos/static/css/main.e4549b22.css.map",
-    "main.892e0c92.js.map": "/Todos/static/js/main.892e0c92.js.map"
+    "main.bf699b0c.js.map": "/Todos/static/js/main.bf699b0c.js.map"
   },
   "entrypoints": [
     "static/css/main.e4549b22.css",
-    "static/js/main.892e0c92.js"
+    "static/js/main.bf699b0c.js"
   ]
 }
